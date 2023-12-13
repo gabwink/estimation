@@ -43,15 +43,7 @@ The resampling step helps focus the particle set on regions of higher probabilit
 
 ## What is a particle  filter
 
-Particle filters are a discrete approximation of a Bayes fitler. They are approximating the intwergral in a continuous domain. They are rwally good for systems where your sensor models are primarily defined by their geometry rather than being defined by a noise distribution. 
-
-
-
-
-Particle Filters are a way of using samples from a distribution to model the impact of nontriv-
-ial/nonlinear transition functions (typically arising from physics or some other principled modeling
-approach).
-
+Particle filters are a discrete approximations of a Bayes fitler. They are approximating the intergral in a continuous domain. They are really good for systems where your sensor models are primarily defined by their geometry rather than being defined by a noise distribution. 
 
 
 
