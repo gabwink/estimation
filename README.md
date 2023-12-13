@@ -51,7 +51,9 @@ Particle filters are a discrete approximations of a Bayes fitler. They are appro
 # Kalman Filter
 Implement the Kalman filter for the system
 
-$\phantom{ccccccccccccccccccccccccccccccccccccccccccc}\begin{bmatrix} \dot{x} \\ \dot{y} \end{bmatrix} = \begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix}$
+```math
+\begin{bmatrix} \dot{x} \\ \dot{y} \end{bmatrix} = \begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix}$
+```
 
 
 
