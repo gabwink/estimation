@@ -16,10 +16,10 @@ Model: $\dot{x} = f(x, u + noise)$
 $X_t = []$  
 $\bar{X_t} = []$  
 **for** m = 1, ..., M **do**  
-* sample $x^{[m]}_t$  $p(x_t|u_t,x^{[m]}_{t-1})$
+* sample $x^{[m]}_t$  from $p(x_t|u_t,x^{[m]}_{t-1})$
+* The equation \(x^{[m]}_t\) is an example of \(p(x_t|u_t,x^{[m]}_{t-1})\)
 * $w^{[m]}_t = p(z_t|x^{[m]}_t)$
 * add the pair $(x^{[m]}_t, w^{[m]}_t)$ to $\bar{X_t}$  
-$x^{[m]}_t$  $p(x_t|u_t,x^{[m]}_{t-1})$
 **end for**  
 **for** m = 1, ..., M **do**  
 * draw *i* with probability $w^{[m]}_t$ (or $\tilde{w}^{[m]}_t=\frac{w^{[m]}_t}{\sum{w^{[i]}_t}}$ if you are using a tool that requires normalized weight)
