@@ -17,7 +17,7 @@ $X_t = []$
 $\bar{X_t} = []$  
 **for** m = 1, ..., M **do**  
 * sample $x^{[m]}_t$  from $p(x_t|u_t,x^{[m]}_{t-1})$
-* sample $x^{[m]}_t$ from $p(x_t|u_t,x^{[m]}_t)$ 
+* sample $x^{[m]}_t$ from $p(x_t|u_t,x^{[m]}_{t-1})$ 
 * $w^{[m]}_t = p(z_t|x^{[m]}_t)$
 * add the pair $(x^{[m]}_t, w^{[m]}_t)$ to $\bar{X_t}$  
 **end for**  
