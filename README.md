@@ -6,7 +6,7 @@ A particle filter implemented for a differenetial drive vehicle subject to the d
 ```math
 \begin{bmatrix}X\\Y\end{bmatrix}
 ```
-
+v
 
 using dt = 0.1 and process noise and measurement noise normally distributed with a variance of 0.02.  
 
