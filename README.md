@@ -3,7 +3,9 @@
 ## Code Overview 
 A particle filter implemented for a differenetial drive vehicle subject to the dynamics, 
 
-<img src="https://latex.codecogs.com/svg.latex?\begin{bmatrix}\dot{x}\\\dot{y}\\\dot{\theta}\end{bmatrix}=\begin{bmatrix}\cos(\theta)u_1\\\sin(\theta)u_1\\u_2\end{bmatrix}" /> , $(x(0), y(0), \theta(0)) = (0, 0, \pi/2)$
+```math
+\begin{bmatrix}X\\Y\end{bmatrix}
+```
 
 
 using dt = 0.1 and process noise and measurement noise normally distributed with a variance of 0.02.  
